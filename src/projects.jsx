@@ -143,7 +143,7 @@ function Project() {
 
       <div className="h">
     <NavLink 
-      to="/" 
+      to="/portfolioCode" 
       className={({ isActive }) => isActive ? "i active" : "i"}
     >
       {t('nav_home')}

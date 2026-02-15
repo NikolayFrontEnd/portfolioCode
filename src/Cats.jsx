@@ -8,8 +8,7 @@ import './blockSport.css'
 
 function Cat(){
     const { t, i18n } = useTranslation();
-  const { theme, toggleTheme } = useContext(ThemeContext);
-
+  const { theme, toggleTheme } = useContext(ThemeContext)
   // Устанавливаем язык из localStorage при загрузке компонента
   useEffect(() => {
     const savedLanguage = localStorage.getItem('language');
