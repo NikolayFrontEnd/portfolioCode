@@ -1,0 +1,242 @@
+.container5 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.container5 .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    max-width: 100%;
+    height: 300px;
+    background: #FFF;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.container5 .card:hover {
+    height: 400px;
+}
+
+.container5 .card .img-box {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container5 .card:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.container5 .card .img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container5 .card .content {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container5 .card:hover .content {
+    top: 130px;
+    height: 250px;
+}
+
+.container5 .card .content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--clr);
+}
+
+.container5 .card .content p {
+    color: #333;
+}
+
+.container5 .card .content a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background: var(--clr);
+    color: #FFF;
+    font-weight: 500;
+}
+
+.container5 .card .content a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+
+    .container5 .card {
+        width: 230px;
+        border-radius: 15px;
+    }
+
+    .container5 .card .img-box {
+        width: 185px;
+        border-radius: 10px;
+    }
+
+    .container5 .card .content p {
+        font-size: 0.6rem;
+    }
+
+    .container5 .card .content a {
+        font-size: 0.9rem;
+    }
+}
+
+.reactColor{
+    font-family: 'Roboto';
+    color: #61DAFB;
+}
+.h2{
+padding-top: 30px;
+    display: flex;
+    justify-content: flex-end; /* Выравнивание элементов по правой стороне */
+    color:black;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 16px;
+
+    margin-right: 20px;
+}
+
+.pWords2{
+    padding: 10px;
+    margin-top: 3px;
+    font-family: 'Roboto';
+font-size: 18px;
+line-height: 25px;
+}
+.nodWord{
+    font-family: 'Roboto';
+    color:#339933;
+}
+
+.pWordsNode{
+    padding: 10px;
+    margin-top: 3px;
+    font-family: 'Roboto';
+font-size: 18px;
+line-height: 25px;
+}
+
+.reactNW{
+
+   font-family: 'Roboto';
+color: #61DAFB;
+}
+
+.pWordsNative{
+    padding: 10px;
+    margin-top: 3px;
+    font-family: 'Roboto';
+font-size: 18px;
+line-height: 25px;
+}
+.postgresql
+{
+
+  color:  #336791;
+  font-family: 'Roboto';
+}
+
+
+.mongoColor{
+    color: #47A248;
+    font-family: 'Roboto';
+}
+.Next{
+    color:#0070f3;
+    font-family: 'Roboto';
+}
+.msServer{
+  color:  #A91D22;
+    font-family: 'Roboto';   
+}
+.nestW{
+    font-family: 'Roboto'; 
+    color:#E0234E;
+
+}
+.threeColor{
+    color: #FF7700;
+    font-family: 'Roboto'; 
+}
+
+.TailWindWord
+{
+    font-family: 'Roboto'; 
+    color: #38B2AC;
+}
+
+.bwords24{
+    font-family: 'Roboto'; 
+    color: #7952B3;
+}
+
+.redWords{
+    font-family: 'Roboto'; 
+    color: #764ABC;
+}
+
+.DjangoW{
+    font-family: 'Roboto'; 
+    color: #092E20;
+
+}
+
+@media screen and (min-width:1900px ) and (max-width:2560px )
+
+{
+.h2{
+    color:black;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 26px;
+    display: flex;
+    margin-left: 1800px;
+    margin-top: 30px;
+    }
+}
+
+@media screen and (min-width:0px ) and (max-width:768px ){ 
+.pWordsNative{
+font-size: 8px;
+}
+}
+
+@media screen and (min-width:0px ) and (max-width:481px ){ 
+    .pWordsNative{
+        font-size: 0.6rem;
+    }
+    }

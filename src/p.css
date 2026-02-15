@@ -1,0 +1,120 @@
+.projects_header{
+  padding-top: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.projects_header__text{
+font-size: 32px;
+font-weight: bold;
+margin-bottom: 15px;
+}
+#dark .projects_header__text{
+color: white; 
+}
+.projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ gap: 40px;
+ padding-bottom: 50px;
+ margin-top: 50px;
+}
+
+
+
+ .projectContainer__card {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 394px;
+  border-radius: 26px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+#dark .projectContainer__card{
+    background: #353535;
+}
+
+.projectContainer__card__photo {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+
+.projectContainer__card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projectContainer__card__textbox {
+  width: 100%;
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-sizing: border-box;
+
+}
+
+.projectContainer__card__textbox__title {
+  font-family: Kalameh;
+  font-weight: bold;
+  font-size: 22px;
+  color: #2157F2;
+  margin: 0; 
+  line-height: 1.4; 
+  flex-grow: 1;  
+  display: flex;
+  align-items: center;  
+}
+#dark .projectContainer__card__textbox__title{
+    color: white;
+}
+.projectContainer__card__btn {
+  background: #2157F2;
+  border-radius: 20px;
+  padding: 8px 18px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;  
+}
+
+#dark .projectContainer__card__btn{
+    background-color: white;
+    color:black
+}
+
+.projectContainer__card__btn:hover {
+  background: #1a47d4;
+  box-shadow: 0 2px 8px rgba(33, 87, 242, 0.3);
+}
+
+.projectContainer__card__textbox__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; 
+  margin-top: auto; 
+  font-weight: 500;
+  font-size: 13px;
+  color: #666;
+}
+
+.projectContainer__card__tools{
+  font-family: Roboto;
+  font-size: 14px;
+  color:#2157F2
+}
+ 
+#dark .projectContainer__card__tools{
+    color:#A6BCFA
+}
+
