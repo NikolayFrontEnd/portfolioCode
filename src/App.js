@@ -35,7 +35,7 @@ function App() {
     <div id={theme}>
       <Routes>
       <Route path="/projects" element={<Project/>} />
-        <Route path="/" element={<Main/>} />
+        <Route path="/portfolioCode" element={<Main/>} />
         <Route path="/skills" element={<Skill/>}/>
         <Route path="/sport" element={<Sport/>}/>
         <Route path="/port" element={<Port/>}/>
