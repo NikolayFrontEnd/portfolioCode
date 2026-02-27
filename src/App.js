@@ -1,7 +1,6 @@
-
 import './App.css';
 import Main from './msin';
-import Project from './projects'
+import Project from './projects';
 import Skill from './Skill';
 import { createContext, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -16,10 +15,10 @@ import Customer from './CustomerApp';
 import Cat from './Cats';
 import GameCulc from './CalcGame';
 import DGame from './dGame';
+import Agrodat from './Agrodat';
 export const ThemeContext = createContext(null);
 function App() {
   const [theme, setTheme] = useState(() => {
-
     return localStorage.getItem('theme') || 'light';
   });
 
@@ -30,29 +29,29 @@ function App() {
   };
 
   return (
-<ThemeContext.Provider value = {{theme,toggleTheme}}>         
-    <Router>
-    <div id={theme}>
-      <Routes>
-      <Route path="/projects" element={<Project/>} />
-        <Route path="/portfolioCode" element={<Main/>} />
-        <Route path="/skills" element={<Skill/>}/>
-        <Route path="/sport" element={<Sport/>}/>
-        <Route path="/port" element={<Port/>}/>
-        <Route path="/dict" element={<Dictionary/>}/>
-        <Route path="/hos" element={<Hospital/>}/>
-        <Route path="/uni" element={<University/>}/>
-        <Route path="/hosProf" element={<HosProf/>}/>
-        <Route path="/bothabChat" element={<BothabChat/>}/>
-        <Route path="/customer" element = {<Customer/>}/> 
-        <Route path="/cats" element = {<Cat/>}/> 
-<Route path = "/game" element = {<GameCulc/>}/>
-<Route path = "/dgame" element = {<DGame/>}/>
-
-      </Routes>
-    </div>
-  </Router>
-  </ThemeContext.Provider>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <Router>
+        <div id={theme}>
+          <Routes>
+            <Route path="/projects" element={<Project />} />
+            <Route path="/portfolioCode" element={<Main />} />
+            <Route path="/skills" element={<Skill />} />
+            <Route path="/sport" element={<Sport />} />
+            <Route path="/port" element={<Port />} />
+            <Route path="/dict" element={<Dictionary />} />
+            <Route path="/hos" element={<Hospital />} />
+            <Route path="/agrodat" element={<Agrodat />} />
+            <Route path="/uni" element={<University />} />
+            <Route path="/hosProf" element={<HosProf />} />
+            <Route path="/bothabChat" element={<BothabChat />} />
+            <Route path="/customer" element={<Customer />} />
+            <Route path="/cats" element={<Cat />} />
+            <Route path="/game" element={<GameCulc />} />
+            <Route path="/dgame" element={<DGame />} />
+          </Routes>
+        </div>
+      </Router>
+    </ThemeContext.Provider>
   );
 }
 

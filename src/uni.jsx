@@ -1,13 +1,13 @@
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { useContext,useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import { ThemeContext } from './App';
-import videoSrc from './video/HOSPITAL.mp4'; 
+import videoSrc from './video/HOSPITAL.mp4';
 
-import './blockSport.css'
+import './blockSport.css';
 
-function BothabChat(){
-    const { t, i18n } = useTranslation();
+function BothabChat() {
+  const { t, i18n } = useTranslation();
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   // Устанавливаем язык из localStorage при загрузке компонента
@@ -25,79 +25,75 @@ function BothabChat(){
     // Сохраняем выбранный язык в localStorage
     localStorage.setItem('language', newLanguage);
   };
-return(
+  return (
     <>
-        <div className="h">
-          <NavLink 
-            to="/" 
-            className={({ isActive }) => isActive ? "i active" : "i"}
-          >
-            {t('nav_home')}
-          </NavLink>
+      <div className="h">
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? 'i active' : 'i')}
+        >
+          {t('nav_home')}
+        </NavLink>
 
-          <NavLink 
-            to="/projects" 
-            className={({ isActive }) => isActive ? "i active" : "i"}
-          >
-            {t('nav_projects')}
-          </NavLink>
-          <NavLink 
-            to="/skills" 
-            className={({ isActive }) => isActive ? "i active" : "i"}
-          >
-            {t('nav_skills')}
-          </NavLink>
+        <NavLink
+          to="/projects"
+          className={({ isActive }) => (isActive ? 'i active' : 'i')}
+        >
+          {t('nav_projects')}
+        </NavLink>
+        <NavLink
+          to="/skills"
+          className={({ isActive }) => (isActive ? 'i active' : 'i')}
+        >
+          {t('nav_skills')}
+        </NavLink>
 
-          <div onClick={changeLanguage} className="i">
-            {i18n.language === 'ru' ? 'en' : 'ru'}
+        <div onClick={changeLanguage} className="i">
+          {i18n.language === 'ru' ? 'en' : 'ru'}
+        </div>
+
+        <div onClick={toggleTheme} className="i">
+          {theme === 'light' ? '🌙' : '☀️'}
+        </div>
+      </div>
+
+      <div className="hospital-container">
+        <div className="hospital-header">
+          <span className="hospital-badge">LMS PLATFORM</span>
+          <h1 className="hospital-title">{t('unititle')}</h1>
+        </div>
+
+        <div className="hospital-content">
+          <div className="video-section">
+            <div className="video-wrapper">
+              <video controls>
+                <source src={videoSrc} type="video/mp4" />
+                Your browser does not support video.
+              </video>
+              <div className="video-shadow"></div>
+            </div>
           </div>
 
-          <div onClick={toggleTheme} className="i">
-            {theme === 'light' ? '🌙' : '☀️'}
-          </div> 
-        </div>
+          <div className="description-section">
+            <div className="description-content">
+              <p className="description-text">{t('uniWebsite')}</p>
 
-<div className="hospital-container">
-            <div className="hospital-header">
-                <span className="hospital-badge">LMS PLATFORM</span>
-                <h1 className="hospital-title">{t("unititle")}</h1>
+              <p className="description-text">{t('uniWebsite1')}</p>
+
+              <div className="description-accent"></div>
             </div>
 
-            <div className="hospital-content">
-                <div className="video-section">
-                    <div className="video-wrapper">
-                        <video controls>
-                            <source src={videoSrc} type="video/mp4" />
-                            Your browser does not support video.
-                        </video>
-                        <div className="video-shadow"></div>
-                    </div>
-                </div>
-
-                <div className="description-section">
-                    <div className="description-content">
-    <p className="description-text">
-{t("uniWebsite")}
-   </p>
-                                               
-        <p className="description-text">
-{t("uniWebsite1")}
-        </p>
-
-                        <div className="description-accent"></div>
-                    </div>
-                    
-                    <NavLink to='/projects' className="back-link">
-                        <button className="back-button">
-                            <span className="button-icon">←</span>
-                            <span className="button-text">{t("ex")}</span>
-                        </button>
-                    </NavLink>
-                </div>
-            </div>
+            <NavLink to="/projects" className="back-link">
+              <button className="back-button">
+                <span className="button-icon">←</span>
+                <span className="button-text">{t('ex')}</span>
+              </button>
+            </NavLink>
+          </div>
         </div>
+      </div>
     </>
-)
+  );
 }
 
 export default BothabChat;

@@ -1,30 +1,28 @@
-.projects_header{
+.projects_header {
   padding-top: 120px;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.projects_header__text{
-font-size: 32px;
-font-weight: bold;
-margin-bottom: 15px;
+.projects_header__text {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
-#dark .projects_header__text{
-color: white; 
+#dark .projects_header__text {
+  color: white;
 }
-.projectContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
- gap: 40px;
- padding-bottom: 50px;
- margin-top: 50px;
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 50px;
+  margin-top: 50px;
 }
 
-
-
- .projectContainer__card {
+.projectContainer__card {
   display: flex;
   flex-direction: column;
   width: 270px;
@@ -35,8 +33,8 @@ color: white;
   overflow: hidden;
 }
 
-#dark .projectContainer__card{
-    background: #353535;
+#dark .projectContainer__card {
+  background: #353535;
 }
 
 .projectContainer__card__photo {
@@ -58,25 +56,24 @@ color: white;
   flex-direction: column;
   padding: 15px;
   box-sizing: border-box;
-
 }
 
 .projectContainer__card__textbox__title {
   font-family: Kalameh;
   font-weight: bold;
   font-size: 22px;
-  color: #2157F2;
-  margin: 0; 
-  line-height: 1.4; 
-  flex-grow: 1;  
+  color: #2157f2;
+  margin: 0;
+  line-height: 1.4;
+  flex-grow: 1;
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
-#dark .projectContainer__card__textbox__title{
-    color: white;
+#dark .projectContainer__card__textbox__title {
+  color: white;
 }
 .projectContainer__card__btn {
-  background: #2157F2;
+  background: #2157f2;
   border-radius: 20px;
   padding: 8px 18px;
   color: white;
@@ -84,12 +81,12 @@ color: white;
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
-  transition: background 0.3s;  
+  transition: background 0.3s;
 }
 
-#dark .projectContainer__card__btn{
-    background-color: white;
-    color:black
+#dark .projectContainer__card__btn {
+  background-color: white;
+  color: black;
 }
 
 .projectContainer__card__btn:hover {
@@ -101,20 +98,19 @@ color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px; 
-  margin-top: auto; 
+  gap: 10px;
+  margin-top: auto;
   font-weight: 500;
   font-size: 13px;
   color: #666;
 }
 
-.projectContainer__card__tools{
+.projectContainer__card__tools {
   font-family: Roboto;
   font-size: 14px;
-  color:#2157F2
-}
- 
-#dark .projectContainer__card__tools{
-    color:#A6BCFA
+  color: #2157f2;
 }
 
+#dark .projectContainer__card__tools {
+  color: #a6bcfa;
+}
