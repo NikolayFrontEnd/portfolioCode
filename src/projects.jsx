@@ -6,6 +6,7 @@ import portf from './photos/portfolio.png';
 import dic from './photos/dic.png';
 import uni from './photos/uni.png';
 import hos from './photos/hospital.png';
+import agrodat from './photos/agrodat.png';
 import prpr from './photos/prpr.png';
 import letucce from "./photos/Let.png"
 import game from "./photos/g.png"
@@ -13,7 +14,6 @@ import chatBot from "./photos/chatBot.png";
 import { useTranslation } from 'react-i18next';
 import { useContext,useEffect } from 'react';
 import { ThemeContext } from './App';
-import style from './project.module.css';
 import IconCircle from './IconCircle';
 import vkPhoto from './photos/vk.png';
 import cats from './photos/cats.png';
@@ -80,6 +80,19 @@ function Project() {
   </div>
 
   <div className="projectContainer">
+<div className="projectContainer__card">
+  <div className="projectContainer__card__photo"><img src={agrodat} alt="project" /></div> 
+  <div className="projectContainer__card__textbox">
+    <div className="projectContainer__card__textbox__title">
+      Agrodat: Web Application for Farmers
+    </div>
+    <div className="projectContainer__card__textbox__bottom">
+      <NavLink to="/hos"> <button className="projectContainer__card__btn">Check it out!</button>  </NavLink>   
+      <div className="projectContainer__card__tools">React / SCSS</div>
+    </div>
+  </div>
+</div>
+
 <div className="projectContainer__card">
   <div className="projectContainer__card__photo"><img src={hos} alt="project" /></div> 
   <div className="projectContainer__card__textbox">
