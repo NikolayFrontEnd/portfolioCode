@@ -6,7 +6,7 @@ import videoSrc from './video/HOSPITAL.mp4';
 
 import './blockSport.css';
 
-function Customer() {
+function Agrodat() {
   const { t, i18n } = useTranslation();
   const { theme, toggleTheme } = useContext(ThemeContext);
 
@@ -59,8 +59,8 @@ function Customer() {
 
       <div className="hospital-container">
         <div className="hospital-header">
-          <span className="hospital-badge">CUSTOMER APP</span>
-          <h1 className="hospital-title">{t('cusTitle')}</h1>
+          <span className="hospital-badge">Application for Farmers</span>
+          <h1 className="hospital-title">{t('hosTitle')}</h1>
         </div>
 
         <div className="hospital-content">
@@ -76,9 +76,9 @@ function Customer() {
 
           <div className="description-section">
             <div className="description-content">
-              <p className="description-text">{t('cus')}</p>
+              <p className="description-text">{t('hos')}</p>
 
-              <p className="description-text">{t('cus1')}</p>
+              <p className="description-text">{t('hos1')}</p>
               <div className="description-accent"></div>
             </div>
 
@@ -95,4 +95,4 @@ function Customer() {
   );
 }
 
-export default Customer;
+export default Agrodat;
