@@ -6,7 +6,7 @@ import videoSrc from './video/HOSPITAL.mp4';
 
 import './blockSport.css';
 
-function Agrodat() {
+function StivPortf() {
   const { t, i18n } = useTranslation();
   const { theme, toggleTheme } = useContext(ThemeContext);
 
@@ -59,8 +59,7 @@ function Agrodat() {
 
       <div className="hospital-container">
         <div className="hospital-header">
-          <span className="hospital-badge">Application for Farmers</span>
-          <h1 className="hospital-title">{t('agroName_name')} </h1>
+          <span className="hospital-badge">PORTFOLIO</span>
         </div>
 
         <div className="hospital-content">
@@ -76,11 +75,11 @@ function Agrodat() {
 
           <div className="description-section">
             <div className="description-content">
-              <p className="description-text"> {t('agro_description')} </p>
+              <p className="description-text">{t('stivPort')}</p>
 
-              <p className="description-text"> {t('agro_description1')}</p>
+              <p className="description-text">{t('stivPort1')}</p>
 
-                  <p className="description-text">{t('agro_description2')} <a href="https://agrodat.md" >https://agrodat.md</a> </p>
+              <p className="description-text"></p>
               <div className="description-accent"></div>
             </div>
 
@@ -97,4 +96,4 @@ function Agrodat() {
   );
 }
 
-export default Agrodat;
+export default StivPortf;

@@ -12,7 +12,17 @@ const resources = {
       nav_skills: 'Skills',
       language_button: 'en',
 
-      // Основной компонент Main
+      // проекты 
+     agroName_name:"Web application for farmers and workers",
+     agro_description:"I worked at Storytelling Software on the main project Agrodat – a web application designed for farmers, agribusinesses, and representatives of the European Union. The application features an interactive map that displays various environmental parameters such as air temperature, soil temperature, precipitation, leaf moisture, solar radiation, wind speed, and many other indicators, helping users effectively plan their crop sowing.",
+     agro_description1:"Within the project, I was responsible for developing key functionalities of the Agrodat web application, including weather forecasting, sowing condition analysis, precipitation measurement, and leaf moisture evaluation. This enabled farmers and agribusinesses to receive up-to-date data promptly and make informed decisions to optimize their agricultural practices.",
+     agro_description2:"Furthermore, I implemented a news viewing feature that allows users to stay informed with the latest updates and events in the agricultural sector. The application also includes a map displaying agro-stores, agricultural universities, and various agri-service centers, making it an indispensable tool for industry professionals. Check it out: ",
+ stivPort:"I designed a clean portfolio card featuring a neat layout with an avatar, social links, and a contact button. I focused on typography, spacing, and a modern visual style to keep the card simple, readable, and professional.",
+     stivPort1:"I designed a clean portfolio card featuring a neat layout with an avatar, social links, and a contact button. I focused on typography, spacing, and a modern visual style to keep the card simple, readable, and professional.",
+      
+     articleApp:"I built the frontend for this programming articles web app as a freelance project. The Node.js backend was already in place, and my responsibility was to implement the UI and connect it to the existing API—handling requests, responses, loading/error states, and smooth navigation across the content.",
+     articleApp1:"The app lets users create their own articles, edit or delete them, and save favorite posts to a favorites list. I focused on a clean, intuitive interface and reliable client–server interaction so the core workflows feel fast and consistent.",
+     // Основной компонент Main
       greeting: "I'm",
       name: 'Nikolay,',
       profession: 'Web-developer',
@@ -102,7 +112,7 @@ const resources = {
       bothabDesc2:
         'As a frontend developer at Storytelling Software, I made significant contributions to the development of Bothab. My primary responsibility was building the frontend authentication system, ensuring secure and user-friendly access. Additionally, I implemented a real-time chat feature, enabling instant interaction with AI models, complete with message history for easy tracking of conversations.',
       bothabDesc3:
-        'Furthermore, I developed chat management functionalities, including the ability to create new chats, delete existing ones, and edit their names. These features made the application intuitive and user-centric. Bothab showcases the power of integrating multiple AI models and highlights my ability to create functional, modern interfaces using React.',
+        'Furthermore, I developed chat management functionalities, including the ability to create new chats, delete existing ones, and edit their names. These features made the application intuitive and user-centric. Bothab showcases the power of integrating multiple AI models and highlights my ability to create functional, modern interfaces using React. Check it out:',
       cusTitle: 'Web Application for Customers',
       cus: 'As a frontend developer at Storytelling Software, I contributed to the development of a web application for customer management. My responsibilities included building an interface to display a list of customers, with functionality for administrators to delete records, ensuring efficient and user-friendly data management.',
       cus1: 'Additionally, I implemented the registration and login pages, providing secure and intuitive user access. This project showcases my expertise in creating modern, user-centric web interfaces using React, tailored for effective customer data handling.',
@@ -145,8 +155,17 @@ const resources = {
       nav_projects: 'Проекты',
       nav_skills: 'Навыки',
       language_button: 'ru',
-
-      // Основной компонент Main
+      // проекты
+     agroName_name:"Веб приложение для фермеров и работников",
+     agro_description:"Я работал в компании Storytelling Software над основным проектом Agrodat – веб-приложением, предназначенным для фермеров и агрокомпаний, а также для представителей Европейского союза. Приложение предоставляет карту, на которой отображаются параметры окружающей среды, такие как температура воздуха, температура почвы, осадки, влажность листьев, солнечная радиация, скорость ветра и многие другие показатели, что помогает эффективно планировать посев урожая.",
+     agro_description1:"В рамках проекта я занимался разработкой ключевых функций веб-приложения Agrodat, таких как прогноз погоды, анализ условий для посева, отображение осадков и оценки влажности листьев. Благодаря этому фермеры и агрокомпании могли оперативно получать актуальные данные и принимать обоснованные решения для оптимизации сельскохозяйственных работ.",
+     agro_description2:"Кроме того, мной был реализован функционал просмотра новостных лент, где пользователи имеют возможность ознакомиться с последними обновлениями и событиями в сфере сельского хозяйства. Также приложение включает карту, на которой отображаются агромагазины, агроуниверситеты и сельскохозяйственные сервисы, что делает его незаменимым инструментом для специалистов. Протестировать:",
+     stivPort:"Я создал стильную карточку портфолио с аккуратной компоновкой, аватаром, ссылками на соцсети и кнопкой связи. В процессе уделил внимание типографике, отступам и современному визуальному стилю, чтобы карточка выглядела легко и профессионально.",
+     stivPort1:"Этот проект я выложил на YouTube как часть своего хобби — мне нравится делать красивые дизайны и превращать идеи в понятные, эстетичные интерфейсы. Продолжаю экспериментировать с UI, цветами и анимациями, чтобы прокачивать вкус и навыки.",
+    
+     articleApp:"Это веб‑приложение со статьями для программистов я выполнял как фриланс‑проект. Бэкенд на Node.js уже был готов, а моя задача заключалась в разработке фронтенда и его интеграции с API: настроить запросы, обработку ответов, состояния загрузки/ошибок и удобную навигацию по материалам.",
+     articleApp1:"Приложение позволяет создавать собственные статьи, редактировать и удалять их, а также добавлять понравившиеся публикации в избранное. Я сфокусировался на понятном интерфейсе, аккуратной верстке и стабильной работе всех пользовательских сценариев, чтобы пользоваться платформой было быстро и приятно.",
+     // Основной компонент Main
       greeting: 'Я',
       name: 'Николай,',
       profession: 'Веб-разработчик',
@@ -235,7 +254,7 @@ const resources = {
       bothabDesc2:
         'Работая фронтенд-разработчиком в компании Storytelling Software, я внес значительный вклад в создание Bothab. Моя основная задача заключалась в разработке системы авторизации на фронтенде, обеспечивающей безопасный и удобный доступ пользователей. Также я реализовал функционал чата в реальном времени, позволяющий взаимодействовать с ИИ мгновенно, с поддержкой истории сообщений для удобного отслеживания диалогов.',
       bothabDesc3:
-        'Кроме того, я разработал функции управления чатами, включая создание новых чатов, удаление существующих и редактирование их названий. Эти возможности сделали приложение интуитивно понятным и ориентированным на пользователя. Bothab демонстрирует мощь интеграции различных ИИ и подчеркивает мою способность создавать функциональные и современные интерфейсы с использованием React.',
+        'Кроме того, я разработал функции управления чатами, включая создание новых чатов, удаление существующих и редактирование их названий. Эти возможности сделали приложение интуитивно понятным и ориентированным на пользователя. Bothab демонстрирует мощь интеграции различных ИИ и подчеркивает мою способность создавать функциональные и современные интерфейсы с использованием React. Протестировать:',
       cusTitle: 'Веб приложение для клиентов',
       cus: 'Работая фронтенд-разработчиком в компании Storytelling Software, я участвовал в создании веб-приложения для управления клиентами. Моя задача заключалась в разработке интерфейса, позволяющего просматривать список клиентов, с возможностью для администраторов удалять записи, обеспечивая удобное и эффективное управление данными.',
       cus1: 'Также я реализовал функционал страниц регистрации и входа, гарантируя безопасный и интуитивно понятный доступ для пользователей. Проект демонстрирует мои навыки создания современных веб-интерфейсов с использованием React, ориентированных на удобство работы с клиентской базой.',
