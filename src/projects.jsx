@@ -322,9 +322,11 @@ function Project() {
               Portfolio with Brief Information
             </div>
             <div className="projectContainer__card__textbox__bottom">
+              <NavLink to="/stivportfolio">   
               <button className="projectContainer__card__btn">
                 Check it out!
               </button>
+               </NavLink>
               <div className="projectContainer__card__tools">React / SCSS</div>
             </div>
           </div>
@@ -339,47 +341,16 @@ function Project() {
               Web Application with Articles
             </div>
             <div className="projectContainer__card__textbox__bottom">
+              <NavLink to="/articleApp">
               <button className="projectContainer__card__btn">
                 Check it out!
               </button>
+               </NavLink>
               <div className="projectContainer__card__tools">React / CSS</div>
             </div>
           </div>
         </div>
 
-        <div className="projectContainer__card">
-          <div className="projectContainer__card__photo">
-            <img src={td} alt="project" />
-          </div>
-          <div className="projectContainer__card__textbox">
-            <div className="projectContainer__card__textbox__title">
-              To-Do Application with Features
-            </div>
-            <div className="projectContainer__card__textbox__bottom">
-              <button className="projectContainer__card__btn">
-                Check it out!
-              </button>
-              <div className="projectContainer__card__tools">React / CSS</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="projectContainer__card">
-          <div className="projectContainer__card__photo">
-            <img src={gutsby} alt="project" />
-          </div>
-          <div className="projectContainer__card__textbox">
-            <div className="projectContainer__card__textbox__title">
-              Vo Loan - Part of the Project
-            </div>
-            <div className="projectContainer__card__textbox__bottom">
-              <button className="projectContainer__card__btn">
-                Check it out!
-              </button>
-              <div className="projectContainer__card__tools">React / CSS</div>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );

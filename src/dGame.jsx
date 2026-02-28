@@ -59,7 +59,7 @@ function DGame() {
 
       <div className="hospital-container">
         <div className="hospital-header">
-          <span className="hospital-badge">DICTIONARY</span>
+          <span className="hospital-badge">SPACE GAME</span>
           <h1 className="hospital-title">{t('dgameTitle')}</h1>
         </div>
 

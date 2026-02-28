@@ -209,3 +209,18 @@
   z-index: -1;
   transition: opacity 0.3s ease;
 }
+.hospital-content2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.hospital-content2 img {
+  width: 50%;
+  max-width: 1600px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
