@@ -52,7 +52,6 @@ function App() {
             <Route path="/dgame" element={<DGame />} />
              <Route path="/stivportfolio" element={<StivPortf />} />
              <Route path="/articleApp" element={<ArticleApp />} />
-                     <Route path="/articleApp" element={<ArticleApp />} />
           </Routes>
         </div>
       </Router>
