@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useContext, useEffect } from 'react';
 import { ThemeContext } from './App';
-import videoSrc from './video/HOSPITAL.mp4';
+import spaceGame from './photos/Space.png';
 
 import './blockSport.css';
 
@@ -63,16 +63,9 @@ function DGame() {
           <h1 className="hospital-title">{t('dgameTitle')}</h1>
         </div>
 
-        <div className="hospital-content">
-          <div className="video-section">
-            <div className="video-wrapper">
-              <video controls>
-                <source src={videoSrc} type="video/mp4" />
-                Your browser does not support video.
-              </video>
-              <div className="video-shadow"></div>
-            </div>
-          </div>
+        <div className="hospital-content2">
+ <img src = {spaceGame} alt="customer app"/>
+
 
           <div className="description-section">
             <div className="description-content">
