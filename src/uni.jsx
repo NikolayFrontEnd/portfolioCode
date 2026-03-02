@@ -2,8 +2,8 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useContext, useEffect } from 'react';
 import { ThemeContext } from './App';
-import videoSrc from './video/HOSPITAL.mp4';
-
+import videoSrc from './video/uni1.mp4';
+import videoSrc2 from './video/uni2.mp4';
 import './blockSport.css';
 
 function BothabChat() {
@@ -89,6 +89,15 @@ function BothabChat() {
                 <span className="button-text">{t('ex')}</span>
               </button>
             </NavLink>
+          </div>
+                    <div className="video-section">
+            <div className="video-wrapper">
+              <video controls>
+                <source src={videoSrc2} type="video/mp4" />
+                Your browser does not support video.
+              </video>
+              <div className="video-shadow"></div>
+            </div>
           </div>
         </div>
       </div>
