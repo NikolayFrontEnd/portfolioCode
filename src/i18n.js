@@ -134,7 +134,7 @@ const resources = {
       gameTitle: 'Game for Improving Memory and Calculation Skills',
       game: 'At Storytelling Software, as a frontend developer, I contributed to developing an application aimed at enhancing memory and math skills. My primary responsibility was building the React-based interface and implementing various difficulty levels for the game tasks, ensuring an engaging and adaptive user experience.',
       game1:
-        'I focused on creating interactive game elements that help users improve their cognitive abilities. Other developers handled registration and user profiles, allowing me to concentrate on the game’s functionality. This project highlights my skills in crafting dynamic, user-focused interfaces.',
+        'I focused on creating interactive game elements that help users improve their cognitive abilities. Other developers handled registration and user profiles, allowing me to concentrate on the game’s functionality. This project highlights my skills in crafting dynamic, user-focused interfaces. Check it out: ',
       sportTite: 'Sport Application with Famous Athletes',
       sport:
         'My first React project involved creating a website that showcased prominent athletes and their training programs. I developed an interactive interface that allowed users to easily view data stored in a PostgreSQL database, ensuring efficient information management.',
@@ -276,7 +276,7 @@ const resources = {
       gameTitle: 'Игра для улучшения памяти',
       game: 'В компании Storytelling Software, работая фронтенд-разработчиком, я участвовал в создании приложения, направленного на улучшение памяти и навыков счета. Моя основная задача заключалась в разработке интерфейса на React и реализации различных уровней сложности для игровых заданий, обеспечивая увлекательный и адаптивный пользовательский опыт.',
       game1:
-        'Я сосредоточился на создании интерактивных элементов игры, которые помогают пользователям развивать когнитивные способности. Регистрацией и личными профилями занимались другие разработчики, что позволило мне сосредоточиться на функционале игры. Этот проект подчеркивает мои навыки создания динамичных и ориентированных на пользователя интерфейсов.',
+        'Я сосредоточился на создании интерактивных элементов игры, которые помогают пользователям развивать когнитивные способности. Регистрацией и личными профилями занимались другие разработчики, что позволило мне сосредоточиться на функционале игры. Этот проект подчеркивает мои навыки создания динамичных и ориентированных на пользователя интерфейсов. Протестировать: ',
       sportTite: 'Сайт с основными спортсменами',
       sport:
         'Мой первый проект на React был посвящен созданию сайта, отображающего информацию о ведущих спортсменах и их тренировочных программах. Я разработал интерактивный интерфейс, позволяющий пользователям удобно просматривать данные, которые хранились в базе PostgreSQL, обеспечивая эффективное управление информацией.',

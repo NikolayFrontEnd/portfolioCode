@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useContext, useEffect } from 'react';
 import { ThemeContext } from './App';
-import sportPhoto from './photos/sport.png';
+import videoSrc from './video/sportVideo.mp4';
 
 import './blockSport.css';
 
@@ -63,9 +63,16 @@ function GameCulc() {
           <h1 className="hospital-title">{t('sportTite')}</h1>
         </div>
 
-        <div className="hospital-content2">
- <img src = {sportPhoto} alt="customer app"/>
-
+        <div className="hospital-content">
+          <div className="video-section">
+            <div className="video-wrapper">
+              <video controls>
+                <source src={videoSrc} type="video/mp4" />
+                Your browser does not support video.
+              </video>
+              <div className="video-shadow"></div>
+            </div>
+          </div>
           <div className="description-section">
             <div className="description-content">
               <p className="description-text">{t('sport')}</p>

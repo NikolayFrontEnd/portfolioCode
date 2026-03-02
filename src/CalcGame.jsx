@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useContext, useEffect } from 'react';
 import { ThemeContext } from './App';
-import videoSrc from './video/HOSPITAL.mp4';
+import catsPhoto from './photos/g.png';
 
 import './blockSport.css';
 
@@ -63,22 +63,15 @@ function GameCulc() {
           <h1 className="hospital-title">{t('gameTitle')}</h1>
         </div>
 
-        <div className="hospital-content">
-          <div className="video-section">
-            <div className="video-wrapper">
-              <video controls>
-                <source src={videoSrc} type="video/mp4" />
-                Your browser does not support video.
-              </video>
-              <div className="video-shadow"></div>
-            </div>
-          </div>
+        <div className="hospital-content2">
+ <img src = {catsPhoto} alt="customer app"/>
+
 
           <div className="description-section">
             <div className="description-content">
               <p className="description-text">{t('game')}</p>
 
-              <p className="description-text">{t('game1')}</p>
+              <p className="description-text">{t('game1')} <a href = 'https://profound-yeot-adb69f.netlify.app'>https://profound-yeot-adb69f.netlify.app</a></p>
 
               <p className="description-text"></p>
               <div className="description-accent"></div>
