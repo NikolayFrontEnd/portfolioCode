@@ -322,11 +322,11 @@ function Project() {
               Portfolio with Brief Information
             </div>
             <div className="projectContainer__card__textbox__bottom">
-              <NavLink to="/stivportfolio">   
-              <button className="projectContainer__card__btn">
-                Check it out!
-              </button>
-               </NavLink>
+              <NavLink to="/stivportfolio">
+                <button className="projectContainer__card__btn">
+                  Check it out!
+                </button>
+              </NavLink>
               <div className="projectContainer__card__tools">React / SCSS</div>
             </div>
           </div>
@@ -342,15 +342,14 @@ function Project() {
             </div>
             <div className="projectContainer__card__textbox__bottom">
               <NavLink to="/articleApp">
-              <button className="projectContainer__card__btn">
-                Check it out!
-              </button>
-               </NavLink>
+                <button className="projectContainer__card__btn">
+                  Check it out!
+                </button>
+              </NavLink>
               <div className="projectContainer__card__tools">React / CSS</div>
             </div>
           </div>
         </div>
-
       </div>
     </>
   );

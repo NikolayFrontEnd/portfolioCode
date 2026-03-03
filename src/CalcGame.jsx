@@ -64,14 +64,18 @@ function GameCulc() {
         </div>
 
         <div className="hospital-content2">
- <img src = {catsPhoto} alt="customer app"/>
-
+          <img src={catsPhoto} alt="customer app" />
 
           <div className="description-section">
             <div className="description-content">
               <p className="description-text">{t('game')}</p>
 
-              <p className="description-text">{t('game1')} <a href = 'https://profound-yeot-adb69f.netlify.app'>https://profound-yeot-adb69f.netlify.app</a></p>
+              <p className="description-text">
+                {t('game1')}{' '}
+                <a href="https://profound-yeot-adb69f.netlify.app">
+                  https://profound-yeot-adb69f.netlify.app
+                </a>
+              </p>
 
               <p className="description-text"></p>
               <div className="description-accent"></div>

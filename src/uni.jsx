@@ -90,7 +90,7 @@ function BothabChat() {
               </button>
             </NavLink>
           </div>
-                    <div className="video-section">
+          <div className="video-section">
             <div className="video-wrapper">
               <video controls>
                 <source src={videoSrc2} type="video/mp4" />

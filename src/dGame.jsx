@@ -64,8 +64,7 @@ function DGame() {
         </div>
 
         <div className="hospital-content2">
- <img src = {spaceGame} alt="customer app"/>
-
+          <img src={spaceGame} alt="customer app" />
 
           <div className="description-section">
             <div className="description-content">

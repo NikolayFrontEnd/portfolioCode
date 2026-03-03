@@ -63,8 +63,7 @@ function Cat() {
         </div>
 
         <div className="hospital-content2">
- <img src = {catsPhoto} alt="customer app"/>
-
+          <img src={catsPhoto} alt="customer app" />
 
           <div className="description-section">
             <div className="description-content">

@@ -63,8 +63,7 @@ function ArticleApp() {
         </div>
 
         <div className="hospital-content2">
- <img src = {vkPhoto} alt="customer app"/>
-
+          <img src={vkPhoto} alt="customer app" />
 
           <div className="description-section">
             <div className="description-content">

@@ -63,8 +63,7 @@ function StivPortf() {
         </div>
 
         <div className="hospital-content2">
- <img src = {sportPhoto} alt="customer app"/>
-
+          <img src={sportPhoto} alt="customer app" />
 
           <div className="description-section">
             <div className="description-content">

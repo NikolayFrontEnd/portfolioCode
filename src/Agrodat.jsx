@@ -80,7 +80,10 @@ function Agrodat() {
 
               <p className="description-text"> {t('agro_description1')}</p>
 
-                  <p className="description-text">{t('agro_description2')} <a href="https://agrodat.md" >https://agrodat.md</a> </p>
+              <p className="description-text">
+                {t('agro_description2')}{' '}
+                <a href="https://agrodat.md">https://agrodat.md</a>{' '}
+              </p>
               <div className="description-accent"></div>
             </div>
 

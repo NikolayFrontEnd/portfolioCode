@@ -50,8 +50,8 @@ function App() {
             <Route path="/cats" element={<Cat />} />
             <Route path="/game" element={<GameCulc />} />
             <Route path="/dgame" element={<DGame />} />
-             <Route path="/stivportfolio" element={<StivPortf />} />
-             <Route path="/articleApp" element={<ArticleApp />} />
+            <Route path="/stivportfolio" element={<StivPortf />} />
+            <Route path="/articleApp" element={<ArticleApp />} />
           </Routes>
         </div>
       </Router>

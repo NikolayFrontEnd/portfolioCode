@@ -64,7 +64,7 @@ function Customer() {
         </div>
 
         <div className="hospital-content2">
- <img src = {letucce} alt="customer app"/>
+          <img src={letucce} alt="customer app" />
 
           <div className="description-section">
             <div className="description-content">

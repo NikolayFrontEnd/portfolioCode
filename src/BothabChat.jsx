@@ -80,7 +80,10 @@ function BothabChat() {
 
               <p className="description-text">{t('bothabDesc2')}</p>
 
-              <p className="description-text">{t('bothabDesc3')} <a href="https://bothub.chat">https://bothub.chat</a> </p>
+              <p className="description-text">
+                {t('bothabDesc3')}{' '}
+                <a href="https://bothub.chat">https://bothub.chat</a>{' '}
+              </p>
               <div className="description-accent"></div>
             </div>
 

@@ -82,13 +82,9 @@ function Main() {
                 <div className="describtion">{t('description5')}</div>
               </div>
               <div className="buttons">
-                     <NavLink className="a" to="/projects">
-                <button className="project-btn">
-             
-                    {t('see_projects')}
-            
-                </button>
-                      </NavLink>
+                <NavLink className="a" to="/projects">
+                  <button className="project-btn">{t('see_projects')}</button>
+                </NavLink>
                 <div className="resume-btn">
                   <a className="a2" href={portfolio} download="portfolio">
                     {t('download_resume')}
