@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useContext, useEffect } from 'react';
 import { ThemeContext } from './App';
-import videoSrc from './video/HOSPITAL.mp4';
+import videoSrc from './video/bothab.mp4';
 
 import './blockSport.css';
 
